@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22F7126122424AC90002E42C /* SelectRoomTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F7126022424AC90002E42C /* SelectRoomTypeTableViewController.swift */; };
 		22F8FADC223FC29A0028720F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F8FADB223FC29A0028720F /* AppDelegate.swift */; };
-		22F8FADE223FC29A0028720F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F8FADD223FC29A0028720F /* ViewController.swift */; };
 		22F8FAE1223FC29A0028720F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F8FADF223FC29A0028720F /* Main.storyboard */; };
 		22F8FAE3223FC29F0028720F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F8FAE2223FC29F0028720F /* Assets.xcassets */; };
 		22F8FAE6223FC29F0028720F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F8FAE4223FC29F0028720F /* LaunchScreen.storyboard */; };
+		22F8FAEE223FC3120028720F /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F8FAED223FC3120028720F /* Registration.swift */; };
+		22F8FAF0223FC3420028720F /* RoomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F8FAEF223FC3420028720F /* RoomType.swift */; };
+		22F8FAF2223FCA740028720F /* AddRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F8FAF1223FCA740028720F /* AddRegistrationTableViewController.swift */; };
+		22FBD2812244266C00EDDC6D /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FBD2802244266C00EDDC6D /* RegistrationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22F7126022424AC90002E42C /* SelectRoomTypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomTypeTableViewController.swift; sourceTree = "<group>"; };
 		22F8FAD8223FC29A0028720F /* HotelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F8FADB223FC29A0028720F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22F8FADD223FC29A0028720F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22F8FAE0223FC29A0028720F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22F8FAE2223FC29F0028720F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22F8FAE5223FC29F0028720F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22F8FAE7223FC29F0028720F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F8FAED223FC3120028720F /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		22F8FAEF223FC3420028720F /* RoomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomType.swift; sourceTree = "<group>"; };
+		22F8FAF1223FCA740028720F /* AddRegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistrationTableViewController.swift; sourceTree = "<group>"; };
+		22FBD2802244266C00EDDC6D /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,8 @@
 		22F8FACF223FC29A0028720F = {
 			isa = PBXGroup;
 			children = (
+				22F8FAED223FC3120028720F /* Registration.swift */,
+				22F8FAEF223FC3420028720F /* RoomType.swift */,
 				22F8FADA223FC29A0028720F /* HotelApp */,
 				22F8FAD9223FC29A0028720F /* Products */,
 			);
@@ -55,8 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				22F8FADB223FC29A0028720F /* AppDelegate.swift */,
-				22F8FADD223FC29A0028720F /* ViewController.swift */,
 				22F8FADF223FC29A0028720F /* Main.storyboard */,
+				22FBD2802244266C00EDDC6D /* RegistrationTableViewController.swift */,
+				22F7126022424AC90002E42C /* SelectRoomTypeTableViewController.swift */,
+				22F8FAF1223FCA740028720F /* AddRegistrationTableViewController.swift */,
 				22F8FAE2223FC29F0028720F /* Assets.xcassets */,
 				22F8FAE4223FC29F0028720F /* LaunchScreen.storyboard */,
 				22F8FAE7223FC29F0028720F /* Info.plist */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22F8FADE223FC29A0028720F /* ViewController.swift in Sources */,
+				22F8FAEE223FC3120028720F /* Registration.swift in Sources */,
 				22F8FADC223FC29A0028720F /* AppDelegate.swift in Sources */,
+				22F8FAF2223FCA740028720F /* AddRegistrationTableViewController.swift in Sources */,
+				22F8FAF0223FC3420028720F /* RoomType.swift in Sources */,
+				22FBD2812244266C00EDDC6D /* RegistrationTableViewController.swift in Sources */,
+				22F7126122424AC90002E42C /* SelectRoomTypeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
